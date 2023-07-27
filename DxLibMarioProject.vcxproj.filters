@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mains">
+      <UniqueIdentifier>{186f4f2a-88ab-4bf0-bcc8-45439946225a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{1793ad9e-da79-4a00-a12e-e9af4a1d54e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\bootScene">
+      <UniqueIdentifier>{ab71d7a3-0d1b-4ce9-8c8c-08566c1be85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\SceneManager">
+      <UniqueIdentifier>{68a4b298-f58b-4d19-80b3-bd65e9c071ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs">
+      <UniqueIdentifier>{7ee67c5d-6bb1-4205-b806-f81cc4b4df45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenes">
+      <UniqueIdentifier>{fe679a0a-ed95-447f-9cee-58effb5cf560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commons">
+      <UniqueIdentifier>{3cf3e6f0-451e-4070-bfd3-e7e7b48ce6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\fps">
+      <UniqueIdentifier>{7c2ae1db-5a87-4f98-ac58-74d37dda55f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs\items">
+      <UniqueIdentifier>{9e27865f-11e7-4e17-854b-bbdecb404d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs\blocks">
+      <UniqueIdentifier>{5a43844b-00e1-407e-a27e-e2d54576d5d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs\enemy">
+      <UniqueIdentifier>{edf9acdd-f962-4bb5-88af-c5dab175c9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs\blocks\effect">
+      <UniqueIdentifier>{6c79cb8b-620a-42e5-aa4d-23c558079bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs\fortress">
+      <UniqueIdentifier>{bab9f2dd-8b42-4f9a-91a8-71d603fed2fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs\backGround_Graphic">
+      <UniqueIdentifier>{558769eb-473b-435b-8c0b-2a78a0aab725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs\items\item">
+      <UniqueIdentifier>{97c0267e-05f7-4825-9395-5ce104595f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs\editer">
+      <UniqueIdentifier>{f9f9d379-80d5-4378-a5a1-663a568cfd1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objs\player">
+      <UniqueIdentifier>{1701caf0-e585-4735-9549-744d482181b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\mains\app.h">
+      <Filter>mains</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\colorhsv.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\common.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mains\config.h">
+      <Filter>mains</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\farstonescene.h">
+      <Filter>FrameWork\bootScene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gamescene.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\object.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\scene.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\scenechanger.h">
+      <Filter>FrameWork\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\scenemanager.h">
+      <Filter>FrameWork\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\title.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\save.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\fpstimer.h">
+      <Filter>FrameWork\fps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mushroom.h">
+      <Filter>objs\items</Filter>
+    </ClInclude>
+    <ClInclude Include="source\itemBase.h">
+      <Filter>objs\items</Filter>
+    </ClInclude>
+    <ClInclude Include="source\itemManager.h">
+      <Filter>objs\items</Filter>
+    </ClInclude>
+    <ClInclude Include="source\questionblockManager.h">
+      <Filter>objs\blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="source\goomba.h">
+      <Filter>objs\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\blockBreakEffect.h">
+      <Filter>objs\blocks\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\breakBlock.h">
+      <Filter>objs\blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="source\blockBreakEffectManager.h">
+      <Filter>objs\blocks\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enemyManager.h">
+      <Filter>objs\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enemyBase.h">
+      <Filter>objs\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\fortress.h">
+      <Filter>objs\fortress</Filter>
+    </ClInclude>
+    <ClInclude Include="source\questionblock.h">
+      <Filter>objs\blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="source\backimage.h">
+      <Filter>objs\backGround_Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\field.h">
+      <Filter>objs\backGround_Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\coin.h">
+      <Filter>objs\items\item</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\myDxLib.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mouseedit.h">
+      <Filter>objs\editer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\character.h">
+      <Filter>objs\player</Filter>
+    </ClInclude>
+    <ClInclude Include="source\player.h">
+      <Filter>objs\player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\mains\app.cpp">
+      <Filter>mains</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libs\farstonescene.cpp">
+      <Filter>FrameWork\bootScene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gamescene.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libs\scene.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libs\scenechanger.cpp">
+      <Filter>FrameWork\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libs\scenemanager.cpp">
+      <Filter>FrameWork\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\title.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mains\winmain.cpp">
+      <Filter>mains</Filter>
+    </ClCompile>
+    <ClCompile Include="source\save.cpp">
+      <Filter>commons</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libs\fpstimer.cpp">
+      <Filter>FrameWork\fps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mushroom.cpp">
+      <Filter>objs\items</Filter>
+    </ClCompile>
+    <ClCompile Include="source\itemManager.cpp">
+      <Filter>objs\items</Filter>
+    </ClCompile>
+    <ClCompile Include="source\questionblockManager.cpp">
+      <Filter>objs\blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="source\goomba.cpp">
+      <Filter>objs\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\blockBreakEffect.cpp">
+      <Filter>objs\blocks\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\blockBreakEffectManager.cpp">
+      <Filter>objs\blocks\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\breakBlock.cpp">
+      <Filter>objs\blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enemyManager.cpp">
+      <Filter>objs\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\fortress.cpp">
+      <Filter>objs\fortress</Filter>
+    </ClCompile>
+    <ClCompile Include="source\questionblock.cpp">
+      <Filter>objs\blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="source\backimage.cpp">
+      <Filter>objs\backGround_Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="source\field.cpp">
+      <Filter>objs\backGround_Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="source\coin.cpp">
+      <Filter>objs\items\item</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mouseedit.cpp">
+      <Filter>objs\editer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\player.cpp">
+      <Filter>objs\player</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
